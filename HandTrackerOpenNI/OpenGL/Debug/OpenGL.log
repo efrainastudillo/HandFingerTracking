@@ -1,0 +1,29 @@
+﻿Compilación iniciada a las 01-May-13 5:26:57 PM.
+     1>Proyecto "F:\CTI\projects\HandTrackerOpenNI\OpenGL\OpenGL.vcxproj" en el nodo 2 (build destinos).
+     1>PrepareForBuild:
+         Creando directorio "F:\CTI\projects\HandTrackerOpenNI\Debug\".
+       InitializeBuildStatus:
+         Se creará "Debug\OpenGL.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\HandTrackerOpenNI\Vector3.cpp main.cpp
+         main.cpp
+     1>f:\cti\projects\handtrackeropenni\opengl\main.cpp(1): fatal error C1083: No se puede abrir el archivo incluir: 'Vector3': No such file or directory
+         Vector3.cpp
+     1>f:\cti\projects\handtrackeropenni\handtrackeropenni\vector3.cpp(24): warning C4244: 'argumento' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>f:\cti\projects\handtrackeropenni\handtrackeropenni\vector3.cpp(24): warning C4244: 'argumento' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>f:\cti\projects\handtrackeropenni\handtrackeropenni\vector3.cpp(24): warning C4244: 'argumento' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>f:\cti\projects\handtrackeropenni\handtrackeropenni\vector3.cpp(38): warning C4244: 'argumento' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>f:\cti\projects\handtrackeropenni\handtrackeropenni\vector3.cpp(38): warning C4244: 'argumento' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>f:\cti\projects\handtrackeropenni\handtrackeropenni\vector3.cpp(38): warning C4244: 'argumento' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>f:\cti\projects\handtrackeropenni\handtrackeropenni\vector3.cpp(57): warning C4244: 'argumento' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>f:\cti\projects\handtrackeropenni\handtrackeropenni\vector3.cpp(57): warning C4244: 'argumento' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>f:\cti\projects\handtrackeropenni\handtrackeropenni\vector3.cpp(57): warning C4244: 'argumento' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>f:\cti\projects\handtrackeropenni\handtrackeropenni\vector3.cpp(88): warning C4244: 'argumento' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>f:\cti\projects\handtrackeropenni\handtrackeropenni\vector3.cpp(88): warning C4244: 'argumento' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>f:\cti\projects\handtrackeropenni\handtrackeropenni\vector3.cpp(88): warning C4244: 'argumento' : conversión de 'float' a 'int'; posible pérdida de datos
+         Generando código...
+     1>Compilación del proyecto terminada "F:\CTI\projects\HandTrackerOpenNI\OpenGL\OpenGL.vcxproj" (build destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:00:02.04

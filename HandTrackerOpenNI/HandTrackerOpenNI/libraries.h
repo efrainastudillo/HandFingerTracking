@@ -3,13 +3,16 @@
 
 #pragma comment(lib,"OpenNI2.lib")
 #pragma comment(lib,"NiTE2.lib")
-#pragma comment(lib,"XnLib.lib")
+
+#pragma comment(lib,"freeglut_static.lib")
+#pragma comment(lib,"GLTools.lib")
 
 #include <iostream>
 #include <OpenNI.h>
 #include <PS1080.h>
 #include <NiTE.h>
 #include <opencv2\opencv.hpp>
+
 //Status for manager messages
 typedef enum{
 	STATUS_OK=1,
@@ -17,6 +20,7 @@ typedef enum{
 	STATUS_UNKNOWN=3
 }STATUS;
 
+/*Pixels format*/
 typedef struct
 {
 	unsigned char r;
@@ -24,7 +28,12 @@ typedef struct
 	unsigned char b;
 } RGBPixel;
 
-#define LOG(msg) (std::cout<<"<HAND_TRACKER_CTI> :\t"<<msg<<std::endl);
+typedef struct
+{
+	unsigned short dist;
+} DepthPixel;
+
+#define LOG(msg) (std::cout<<"<Hand_Tracker_CTI> :\t"<<msg<<std::endl);
 //OPENCV LIBRARIES
 #ifdef _DEBUG
 	#pragma comment(lib,"opencv_calib3d243d.lib")

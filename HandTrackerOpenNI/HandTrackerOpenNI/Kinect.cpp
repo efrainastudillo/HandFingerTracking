@@ -70,19 +70,30 @@ void Kinect::run(){
 			//
 			openni::VideoMode vm= colorFrame.getVideoMode();
 			openni::PixelFormat pf=vm.getPixelFormat();
-			printPixelFormat(pf);
+			//printPixelFormat(pf);
 			vm= depthFrame.getVideoMode();
 			pf=vm.getPixelFormat();
-			printPixelFormat(pf);
+			//printPixelFormat(pf);
+			float pHistogram[10000];
+			memset(pHistogram, 0, 10000*sizeof(float));
 			RGBPixel* colorP = (RGBPixel*)colorFrame.getData();
-			RGBPixel* depthP = (RGBPixel*)depthFrame.getData();
-
+			openni::DepthPixel* depthP = (openni::DepthPixel*) depthFrame.getData();
+			int restOfRow = depthFrame.getStrideInBytes() / sizeof(openni::DepthPixel) - depthFrame.getWidth();
+			for(int i=0;i<depthFrame.getHeight();++i){
+				for(int j=0;j<depthFrame.getWidth();++j,++depthP){
+					if (*depthP != 0){
+						LOG(pHistogram[*depthP]++);
+					}
+				}
+				depthP += restOfRow;
+			}
 			cv::Mat depth(480,640,CV_16UC1,depthP,2*640);
 			cv::Mat depthNorm;
 			cv::normalize(depth,depthNorm,0,255,CV_MINMAX,CV_8UC1);
 			cv::imshow("Depth",depthNorm);
-
+			IplImage* imag;
 			cv::Mat bgrMat,rgbMat(480,640,CV_8UC3,colorP,3*640);
+			
 			cv::cvtColor(rgbMat,bgrMat, CV_RGB2BGR);
 			cv::imshow("FORTH 3D HandTracker",bgrMat);
 		}

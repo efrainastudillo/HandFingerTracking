@@ -1,25 +1,45 @@
+#ifndef VEC3_H
+#define VEC3_H
 #pragma once
+#include <iostream>
+#include <exception>
 
-class Vector3{
+class Vec3{
 public:
-	Vector3(): _x(0),_y(0),_z(0){/*not implement*/} ;
-	Vector3(int x,int y, int z):_x(x),_y(y),_z(z){/*not implement*/};
-	Vector3(const Vector3& vec);
-	~Vector3();
+	Vec3(): _x(0),_y(0),_z(0){/*not implement*/} ;
+	Vec3(int x,int y, int z):_x(x),_y(y),_z(z){/*not implement*/};
+	Vec3(Vec3& vec);
+	~Vec3();
+	
 	//overwrite operators
-	Vector3 operator+(Vector3);
-	Vector3 operator+(float value);
-	Vector3 operator-(Vector3);
-	Vector3 operator-(float value);
-	Vector3 operator=(Vector3);
-	Vector3 operator*(Vector3);
-	Vector3 operator*(float value);
-	Vector3 operator/(Vector3);
-	Vector3 operator/(float value);
-	static Vector3 zero();
-	static Vector3 one();
+	Vec3 operator+(Vec3);
+	Vec3 operator+(float value);
+	Vec3 operator-(Vec3);
+	Vec3 operator-(float value);
+	void operator=(Vec3);
+	Vec3 operator*(Vec3);
+	Vec3 operator*(float value);
+	Vec3 operator/(Vec3);
+	Vec3 operator/(float value);
+
+	//getters & setters
+	void setX(int x);
+	void setY(int y);
+	void setZ(int z);
+
+	int getX();
+	int getY();
+	int getZ();
+
+	static Vec3 zero();
+	static Vec3 one();
+
+	friend std::ostream& operator<<(std::ostream &strm, const Vec3 &a) {
+		return strm << "VEC3("<< a._x << ", "<<a._y<<", "<<a._z<<")";
+	};
 private:
 	int _x;
 	int _y;
 	int _z;
 };
+#endif

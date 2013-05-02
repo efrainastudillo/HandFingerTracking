@@ -1,42 +1,99 @@
-﻿Compilación iniciada a las 4/12/2013 11:56:51 AM.
-     1>Proyecto "C:\Users\Efrain Astudillo\Documents\Visual Studio 2010\Projects\HandTrackerOpenNI\HandTrackerOpenNI\HandTrackerOpenNI.vcxproj" en el nodo 2 (build destinos).
+﻿Compilación iniciada a las 01-May-13 11:38:12 PM.
+     1>Proyecto "F:\CTI\projects\HandTrackerOpenNI\HandTrackerOpenNI\HandTrackerOpenNI.vcxproj" en el nodo 2 (build destinos).
      1>InitializeBuildStatus:
-         Aplicando tarea Touch a "x64\Debug\HandTrackerOpenNI.unsuccessfulbuild".
+         Se creará "x64\Debug\HandTrackerOpenNI.unsuccessfulbuild" porque se especificó "AlwaysCreate".
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\OpenGL\freeglut-MSVC-2.8.0-1.mp\freeglut\include" /IC:\opencv\build\include /I"C:\Program Files\PrimeSense\NiTE2\Include\\" /ID:\OpenNI2.1\OpenNI2\Include\ /ID:\OpenNI2.1\OpenNI2\ThirdParty\PSCommon\XnLib\Include\ /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt Kinect.cpp
-         Kinect.cpp
-     1>Kinect.cpp(19): warning C4482: nonstandard extension used: enum 'STATUS' used in qualified name
-     1>Kinect.cpp(25): warning C4482: nonstandard extension used: enum 'STATUS' used in qualified name
-     1>Kinect.cpp(31): warning C4482: nonstandard extension used: enum 'STATUS' used in qualified name
-     1>Kinect.cpp(34): warning C4482: nonstandard extension used: enum 'openni::ImageRegistrationMode' used in qualified name
-     1>Kinect.cpp(37): warning C4482: nonstandard extension used: enum 'openni::ImageRegistrationMode' used in qualified name
-     1>Kinect.cpp(40): warning C4482: nonstandard extension used: enum 'STATUS' used in qualified name
-     1>Kinect.cpp(43): warning C4482: nonstandard extension used: enum 'STATUS' used in qualified name
-     1>Kinect.cpp(46): warning C4482: nonstandard extension used: enum 'STATUS' used in qualified name
-     1>Kinect.cpp(140): warning C4482: nonstandard extension used: enum 'STATUS' used in qualified name
-     1>Kinect.cpp(146): warning C4482: nonstandard extension used: enum 'STATUS' used in qualified name
-     1>Kinect.cpp(158): warning C4482: nonstandard extension used: enum 'STATUS' used in qualified name
-     1>Kinect.cpp(164): warning C4482: nonstandard extension used: enum 'STATUS' used in qualified name
-     1>Kinect.cpp(167): warning C4482: nonstandard extension used: enum 'STATUS' used in qualified name
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /IC:\OpenGL\include\GLTools\ /IC:\OpenGL\include /IC:\opencv\build\include /I"C:\Program Files\PrimeSense\NiTE2\Include\\" /I"C:\Program Files\OpenNI2\Include\\" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt ViewerGL.cpp main.cpp
+         main.cpp
+     1>main.cpp(10): warning C4482: se utilizó una extensión no estándar: enumeración 'STATUS' utilizada en el nombre completo
+         ViewerGL.cpp
+         Generating Code...
        ManifestResourceCompile:
          Todas las salidas están actualizadas.
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Efrain Astudillo\Documents\Visual Studio 2010\Projects\HandTrackerOpenNI\x64\Debug\HandTrackerOpenNI.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\OpenGL\freeglut-MSVC-2.8.0-1.mp\freeglut\lib" /LIBPATH:C:\opencv\build\x64\vc10\lib /LIBPATH:"C:\Program Files\PrimeSense\NiTE2\Lib\\" /LIBPATH:D:\OpenNI2.1\OpenNI2\Lib\ /LIBPATH:D:\OpenNI2.1\OpenNI2\ThirdParty\PSCommon\XnLib\Lib\ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\HandTrackerOpenNI.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Efrain Astudillo\Documents\Visual Studio 2010\Projects\HandTrackerOpenNI\x64\Debug\HandTrackerOpenNI.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Efrain Astudillo\Documents\Visual Studio 2010\Projects\HandTrackerOpenNI\x64\Debug\HandTrackerOpenNI.lib" /MACHINE:X64 x64\Debug\HandTrackerOpenNI.exe.embed.manifest.res
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\CTI\projects\HandTrackerOpenNI\x64\Debug\HandTrackerOpenNI.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\OpenGL\lib\X64 /LIBPATH:C:\opencv\build\x64\vc10\lib /LIBPATH:"C:\Program Files\PrimeSense\NiTE2\Lib\\" /LIBPATH:"C:\Program Files\OpenNI2\Lib\\" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\HandTrackerOpenNI.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\CTI\projects\HandTrackerOpenNI\x64\Debug\HandTrackerOpenNI.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\CTI\projects\HandTrackerOpenNI\x64\Debug\HandTrackerOpenNI.lib" /MACHINE:X64 x64\Debug\HandTrackerOpenNI.exe.embed.manifest.res
          x64\Debug\FrameUtilities.obj
          x64\Debug\Kinect.obj
          x64\Debug\main.obj
-         HandTrackerOpenNI.vcxproj -> C:\Users\Efrain Astudillo\Documents\Visual Studio 2010\Projects\HandTrackerOpenNI\x64\Debug\HandTrackerOpenNI.exe
+         x64\Debug\Vector3.obj
+         x64\Debug\ViewerGL.obj
+         freeglut_static.lib(freeglut_display.obj) : se encontró .netmodule MSIL o un módulo compilado con /GL; reiniciando la vinculación con /LTCG; agregue /LTCG a la línea de comandos de vínculo para mejorar el rendimiento del vinculador
+     1>LINK : warning LNK4075: se omite '/INCREMENTAL' debido a la especificación '/LTCG'
+            Creando biblioteca F:\CTI\projects\HandTrackerOpenNI\x64\Debug\HandTrackerOpenNI.lib y objeto F:\CTI\projects\HandTrackerOpenNI\x64\Debug\HandTrackerOpenNI.exp
+     1>LINK : warning LNK4098: la biblioteca predeterminada'LIBCMT' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
+     1>LINK : warning LNK4098: la biblioteca predeterminada'MSVCRT' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
+         Generando código
+         Generación de código finalizada
+     1>freeglut_static.lib(freeglut_display.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_display.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>freeglut_static.lib(freeglut_callbacks.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_callbacks.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>freeglut_static.lib(freeglut_init.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_init.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>freeglut_static.lib(freeglut_window.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_window.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>freeglut_static.lib(freeglut_main.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_main.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>freeglut_static.lib(freeglut_structure.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_structure.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>freeglut_static.lib(freeglut_state.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_state.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>freeglut_static.lib(freeglut_spaceball.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_spaceball.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>freeglut_static.lib(freeglut_joystick.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_joystick.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>freeglut_static.lib(freeglut_input_devices.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_input_devices.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>freeglut_static.lib(freeglut_gamemode.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_gamemode.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>freeglut_static.lib(freeglut_cursor.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_cursor.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>freeglut_static.lib(freeglut_menu.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_menu.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>freeglut_static.lib(freeglut_font.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_font.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>freeglut_static.lib(freeglut_font_data.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_font_data.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>freeglut_static.lib(freeglut_stroke_roman.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_stroke_roman.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>freeglut_static.lib(freeglut_stroke_mono_roman.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_stroke_mono_roman.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>GLTools.lib(GLBatch.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'GLTools.lib(GLBatch.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>GLTools.lib(GLShaderManager.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'GLTools.lib(GLShaderManager.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>GLTools.lib(math3d.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'GLTools.lib(math3d.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>GLTools.lib(glew.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'GLTools.lib(glew.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>GLTools.lib(GLTools.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'GLTools.lib(GLTools.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>GLTools.lib(GLTriangleBatch.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'GLTools.lib(GLTriangleBatch.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+         HandTrackerOpenNI.vcxproj -> F:\CTI\projects\HandTrackerOpenNI\x64\Debug\HandTrackerOpenNI.exe
        Manifest:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\HandTrackerOpenNI.exe.embed.manifest" /manifest x64\Debug\HandTrackerOpenNI.exe.intermediate.manifest
          Todas las salidas están actualizadas.
        LinkEmbedManifest:
-         Todas las salidas están actualizadas.
-         HandTrackerOpenNI.vcxproj -> C:\Users\Efrain Astudillo\Documents\Visual Studio 2010\Projects\HandTrackerOpenNI\x64\Debug\HandTrackerOpenNI.exe
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\CTI\projects\HandTrackerOpenNI\x64\Debug\HandTrackerOpenNI.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\OpenGL\lib\X64 /LIBPATH:C:\opencv\build\x64\vc10\lib /LIBPATH:"C:\Program Files\PrimeSense\NiTE2\Lib\\" /LIBPATH:"C:\Program Files\OpenNI2\Lib\\" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\HandTrackerOpenNI.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\CTI\projects\HandTrackerOpenNI\x64\Debug\HandTrackerOpenNI.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\CTI\projects\HandTrackerOpenNI\x64\Debug\HandTrackerOpenNI.lib" /MACHINE:X64 x64\Debug\HandTrackerOpenNI.exe.embed.manifest.res
+         x64\Debug\FrameUtilities.obj
+         x64\Debug\Kinect.obj
+         x64\Debug\main.obj
+         x64\Debug\Vector3.obj
+         x64\Debug\ViewerGL.obj
+         freeglut_static.lib(freeglut_display.obj) : se encontró .netmodule MSIL o un módulo compilado con /GL; reiniciando la vinculación con /LTCG; agregue /LTCG a la línea de comandos de vínculo para mejorar el rendimiento del vinculador
+     1>LINK : warning LNK4075: se omite '/INCREMENTAL' debido a la especificación '/LTCG'
+            Creando biblioteca F:\CTI\projects\HandTrackerOpenNI\x64\Debug\HandTrackerOpenNI.lib y objeto F:\CTI\projects\HandTrackerOpenNI\x64\Debug\HandTrackerOpenNI.exp
+     1>LINK : warning LNK4098: la biblioteca predeterminada'LIBCMT' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
+     1>LINK : warning LNK4098: la biblioteca predeterminada'MSVCRT' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
+         Generando código
+         Generación de código finalizada
+     1>freeglut_static.lib(freeglut_display.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_display.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>freeglut_static.lib(freeglut_callbacks.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_callbacks.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>freeglut_static.lib(freeglut_init.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_init.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>freeglut_static.lib(freeglut_window.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_window.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>freeglut_static.lib(freeglut_main.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_main.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>freeglut_static.lib(freeglut_structure.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_structure.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>freeglut_static.lib(freeglut_state.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_state.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>freeglut_static.lib(freeglut_spaceball.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_spaceball.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>freeglut_static.lib(freeglut_joystick.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_joystick.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>freeglut_static.lib(freeglut_input_devices.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_input_devices.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>freeglut_static.lib(freeglut_gamemode.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_gamemode.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>freeglut_static.lib(freeglut_cursor.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_cursor.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>freeglut_static.lib(freeglut_menu.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_menu.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>freeglut_static.lib(freeglut_font.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_font.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>freeglut_static.lib(freeglut_font_data.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_font_data.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>freeglut_static.lib(freeglut_stroke_roman.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_stroke_roman.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>freeglut_static.lib(freeglut_stroke_mono_roman.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'freeglut_static.lib(freeglut_stroke_mono_roman.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>GLTools.lib(GLBatch.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'GLTools.lib(GLBatch.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>GLTools.lib(GLShaderManager.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'GLTools.lib(GLShaderManager.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>GLTools.lib(math3d.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'GLTools.lib(math3d.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>GLTools.lib(glew.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'GLTools.lib(glew.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>GLTools.lib(GLTools.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'GLTools.lib(GLTools.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>GLTools.lib(GLTriangleBatch.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'GLTools.lib(GLTriangleBatch.obj)' o en 'F:\CTI\projects\HandTrackerOpenNI\x64\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+         HandTrackerOpenNI.vcxproj -> F:\CTI\projects\HandTrackerOpenNI\x64\Debug\HandTrackerOpenNI.exe
        FinalizeBuildStatus:
          Se eliminará el archivo "x64\Debug\HandTrackerOpenNI.unsuccessfulbuild".
          Aplicando tarea Touch a "x64\Debug\HandTrackerOpenNI.lastbuildstate".
-     1>Compilación del proyecto terminada "C:\Users\Efrain Astudillo\Documents\Visual Studio 2010\Projects\HandTrackerOpenNI\HandTrackerOpenNI\HandTrackerOpenNI.vcxproj" (build destinos).
+     1>Compilación del proyecto terminada "F:\CTI\projects\HandTrackerOpenNI\HandTrackerOpenNI\HandTrackerOpenNI.vcxproj" (build destinos).
 
 Compilación correcta.
 
-Tiempo transcurrido 00:00:02.41
+Tiempo transcurrido 00:00:28.65
